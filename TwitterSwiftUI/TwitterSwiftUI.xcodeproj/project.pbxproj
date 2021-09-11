@@ -13,6 +13,8 @@
 		AF31BD9326EC1EEE0053E0EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF31BD9226EC1EEE0053E0EC /* Preview Assets.xcassets */; };
 		AF31BD9E26EC29D80053E0EC /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31BD9D26EC29D80053E0EC /* FeedView.swift */; };
 		AF31BDA026EC2DC40053E0EC /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31BD9F26EC2DC40053E0EC /* TweetCell.swift */; };
+		AF31BDA226EC396A0053E0EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31BDA126EC396A0053E0EC /* SearchView.swift */; };
+		AF31BDA426EC3A6F0053E0EC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31BDA326EC3A6F0053E0EC /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AF31BD9426EC1EEE0053E0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF31BD9D26EC29D80053E0EC /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		AF31BD9F26EC2DC40053E0EC /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		AF31BDA126EC396A0053E0EC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AF31BDA326EC3A6F0053E0EC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				AF31BD8D26EC1EED0053E0EC /* ContentView.swift */,
 				AF31BD9D26EC29D80053E0EC /* FeedView.swift */,
 				AF31BD9F26EC2DC40053E0EC /* TweetCell.swift */,
+				AF31BDA126EC396A0053E0EC /* SearchView.swift */,
+				AF31BDA326EC3A6F0053E0EC /* SearchBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,10 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF31BDA226EC396A0053E0EC /* SearchView.swift in Sources */,
 				AF31BD8E26EC1EED0053E0EC /* ContentView.swift in Sources */,
 				AF31BD9E26EC29D80053E0EC /* FeedView.swift in Sources */,
 				AF31BD8C26EC1EED0053E0EC /* TwitterSwiftUIApp.swift in Sources */,
 				AF31BDA026EC2DC40053E0EC /* TweetCell.swift in Sources */,
+				AF31BDA426EC3A6F0053E0EC /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
